@@ -5,20 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IES Sierra Alta</title>
 
-  <!-- Tipografías de Google Fonts: Lora (títulos) y Work Sans (texto) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Aquí enlazamos nuestro archivo de estilos -->
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-  <!-- ========== CABECERA ========== -->
   <header class="cabecera">
     <a href="#inicio" class="logo">
-      <!-- Icono de montaña (SVG sencillo) -->
       <svg width="24" height="18" viewBox="0 0 24 18">
         <polygon points="0,18 8,4 13,12 17,6 24,18" fill="#2f5233" />
       </svg>
@@ -32,11 +24,9 @@
     </nav>
   </header>
 
-  <!-- ========== PORTADA (zona verde grande) ========== -->
   <section class="portada" id="inicio">
     <div class="portada-contenido">
 
-      <!-- Texto de la izquierda -->
       <div class="portada-texto">
         <p class="etiqueta">IES Sierra Alta</p>
         <h1>Un instituto público donde cada curso deja huella</h1>
@@ -48,7 +38,6 @@
         <a href="#oferta" class="boton">Ven a conocernos</a>
       </div>
 
-      <!-- Dibujo de la derecha: sol y montañas -->
       <svg class="portada-dibujo" viewBox="0 0 260 200">
         <circle cx="205" cy="40" r="22" fill="#c9782f" />
         <polygon points="0,200 0,115 50,60 100,100 150,30 200,95 260,65 260,200" fill="#46704a" />
@@ -58,14 +47,12 @@
     </div>
   </section>
 
-  <!-- ========== QUÉ SE ESTUDIA AQUÍ ========== -->
   <section class="seccion" id="oferta">
     <h2>Qué se estudia aquí</h2>
 
     <div class="tarjetas">
 
       <article class="tarjeta">
-        <!-- Icono de libro -->
         <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9782f" stroke-width="1.5">
           <rect x="3" y="4" width="18" height="16" />
           <line x1="12" y1="4" x2="12" y2="20" />
@@ -75,7 +62,6 @@
       </article>
 
       <article class="tarjeta">
-        <!-- Icono de birrete -->
         <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9782f" stroke-width="1.5" stroke-linejoin="round">
           <polygon points="12,5 22,10 12,15 2,10" />
           <path d="M6 12.5 V17 C9 20 15 20 18 17 V12.5" />
@@ -85,7 +71,6 @@
       </article>
 
       <article class="tarjeta">
-        <!-- Icono de sol -->
         <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9782f" stroke-width="1.5" stroke-linecap="round">
           <circle cx="12" cy="12" r="4" />
           <line x1="12" y1="2" x2="12" y2="5" />
@@ -104,7 +89,6 @@
     </div>
   </section>
 
-  <!-- ========== VISÍTANOS ========== -->
   <section class="seccion seccion-visitanos" id="contacto">
     <h2>Visítanos</h2>
 
@@ -125,6 +109,7 @@
       </div>
     </div>
   </section>
+  <script src="script.js"></script>
 
 </body>
 </html>
