@@ -1,0 +1,6 @@
+# Prompt inicial
+    ##rol
+        Actua como un desarrollador que escribe codigo simple , claro y facil de entender para alguien principiante
+    ##contexto
+        Quiero crear una página web con unicamente html y css, del mismo estilo que las fotos que te paso, no hace falta que sean los mismo colores y mismos iconos, pero que si sea lo mas parecido posible
+#

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IES Sierra Alta</title>
+
+  <!-- Tipografías de Google Fonts: Lora (títulos) y Work Sans (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Aquí enlazamos nuestro archivo de estilos -->
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- ========== CABECERA ========== -->
+  <header class="cabecera">
+    <a href="#inicio" class="logo">
+      <!-- Icono de montaña (SVG sencillo) -->
+      <svg width="24" height="18" viewBox="0 0 24 18">
+        <polygon points="0,18 8,4 13,12 17,6 24,18" fill="#2f5233" />
+      </svg>
+      IES Sierra Alta
+    </a>
+
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#oferta">Oferta educativa</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ========== PORTADA (zona verde grande) ========== -->
+  <section class="portada" id="inicio">
+    <div class="portada-contenido">
+
+      <!-- Texto de la izquierda -->
+      <div class="portada-texto">
+        <p class="etiqueta">IES Sierra Alta</p>
+        <h1>Un instituto público donde cada curso deja huella</h1>
+        <p class="descripcion">
+          Educación Secundaria, Bachillerato y Formación Profesional
+          en el corazón del barrio, con más de 30 años formando a
+          nuestros vecinos.
+        </p>
+        <a href="#oferta" class="boton">Ven a conocernos</a>
+      </div>
+
+      <!-- Dibujo de la derecha: sol y montañas -->
+      <svg class="portada-dibujo" viewBox="0 0 260 200">
+        <circle cx="205" cy="40" r="22" fill="#c9782f" />
+        <polygon points="0,200 0,115 50,60 100,100 150,30 200,95 260,65 260,200" fill="#46704a" />
+        <polygon points="0,200 0,150 55,95 115,140 170,85 260,130 260,200" fill="#264628" />
+      </svg>
+
+    </div>
+  </section>
+
+  <!-- ========== QUÉ SE ESTUDIA AQUÍ ========== -->
+  <section class="seccion" id="oferta">
+    <h2>Qué se estudia aquí</h2>
+
+    <div class="tarjetas">
+
+      <article class="tarjeta">
+        <!-- Icono de libro -->
+        <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9782f" stroke-width="1.5">
+          <rect x="3" y="4" width="18" height="16" />
+          <line x1="12" y1="4" x2="12" y2="20" />
+        </svg>
+        <h3>ESO</h3>
+        <p>De 1º a 4º curso, con grupos reducidos y refuerzo para quien lo necesita.</p>
+      </article>
+
+      <article class="tarjeta">
+        <!-- Icono de birrete -->
+        <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9782f" stroke-width="1.5" stroke-linejoin="round">
+          <polygon points="12,5 22,10 12,15 2,10" />
+          <path d="M6 12.5 V17 C9 20 15 20 18 17 V12.5" />
+        </svg>
+        <h3>Bachillerato</h3>
+        <p>Ciencias y Humanidades, con tutorías de orientación universitaria desde 1º.</p>
+      </article>
+
+      <article class="tarjeta">
+        <!-- Icono de sol -->
+        <svg class="icono" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9782f" stroke-width="1.5" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4" />
+          <line x1="12" y1="2" x2="12" y2="5" />
+          <line x1="12" y1="19" x2="12" y2="22" />
+          <line x1="2" y1="12" x2="5" y2="12" />
+          <line x1="19" y1="12" x2="22" y2="12" />
+          <line x1="5" y1="5" x2="7" y2="7" />
+          <line x1="17" y1="17" x2="19" y2="19" />
+          <line x1="19" y1="5" x2="17" y2="7" />
+          <line x1="7" y1="17" x2="5" y2="19" />
+        </svg>
+        <h3>Formación Profesional</h3>
+        <p>Ciclos de Grado Medio en Informática y Administración, con prácticas en empresas.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========== VISÍTANOS ========== -->
+  <section class="seccion seccion-visitanos" id="contacto">
+    <h2>Visítanos</h2>
+
+    <div class="datos">
+      <div>
+        <h4>Dirección</h4>
+        <p>Calle Sierra Alta, 14<br>28045, Madrid</p>
+      </div>
+
+      <div>
+        <h4>Horario de secretaría</h4>
+        <p>Lunes a viernes<br>9:00 – 14:00</p>
+      </div>
+
+      <div>
+        <h4>Contacto</h4>
+        <p>secretaria@iessierraalta.es<br>91 234 56 78</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
